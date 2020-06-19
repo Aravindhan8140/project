@@ -27,7 +27,7 @@ main ()
       scanf ("%4s", s[i].productname);
       printf ("\n");
       printf ("enter product rate:\n");
-      scanf ("%d", &s[i].prdtrate);
+      scanf ("%3d", &s[i].prdtrate);
       printf ("enter shopaddress :\n");
       scanf ("%4s", s[i].shopaddress);
       printf ("\n");
