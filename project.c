@@ -22,7 +22,7 @@ main ()
       s[i].shopno = i + 1;
       printf ("for shopnumber%d,\n", s[i].shopno);
       printf ("enter the product no:\n");
-      scanf ("%d", &s[i].productno);
+      scanf ("%3d", &s[i].productno);
       printf ("enter the productname:\n");
       scanf ("%4s", s[i].productname);
       printf ("\n");
