@@ -14,7 +14,7 @@ struct shop
 int
 main ()
 {
-  int i, j, count = 0;
+  int i,count = 0;
   char productreq[25];
   printf ("enter shop details:\n");
   for (i = 0; i < 5; i++)
@@ -24,16 +24,16 @@ main ()
       printf ("enter the product no:\n");
       scanf ("%d", &s[i].productno);
       printf ("enter the productname:\n");
-      scanf ("%s", s[i].productname);
+      scanf ("%4s", s[i].productname);
       printf ("\n");
       printf ("enter product rate:\n");
       scanf ("%d", &s[i].prdtrate);
       printf ("enter shopaddress :\n");
-      scanf ("%s", s[i].shopaddress);
+      scanf ("%4s", s[i].shopaddress);
       printf ("\n");
     }
   printf ("enter the product req:");
-  scanf ("%s", &productreq);
+  scanf ("%4s", &productreq);
   for (i = 0; i < 5; i++)
     {
       if (strcmp (productreq, s[i].productname) == 0)
